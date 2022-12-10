@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-i-flex {
+    display: inline-flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.d-inline {
+    display: inline;
+}
+
+h3 {
+    margin-block-start: 16px;
+    margin-block-end: 0px;
+}
+
+#logo {
+    width: 40vw;
+}
+
+#title_1 {
+    padding: 16px 16px;
+    background-color: #8787f0;
+    color: white;
+}
+
+#content_1 {
+    margin-top: 32px;
+    padding: 0px 16px;
+    background-color: #4e4ecc;
+    color: white;
+}
+
+#background_1 {
+    width: 100vw;
+}
