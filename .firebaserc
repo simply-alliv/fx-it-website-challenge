@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fx-it-f5188": {
+      "hosting": {
+        "production": [
+          "fx-it-f5188"
+        ],
+        "michell": [
+          "fx-it-f5188-michell"
+        ]
+      }
+    }
+  }
+}
