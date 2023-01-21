@@ -22,10 +22,22 @@ body {
     column-gap: 32px;
 }
 
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 32px;
+}
+
 @media (min-width: 700px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 32px;
     }
 }
 
@@ -66,9 +78,13 @@ h4,
 h5,
 h1,
 h3,
-h6 {
-
+h6,
+.m-0 {
     margin: 0;
+}
+
+.mt-0 {
+    margin-block-start: 0;
 }
 
 .bg-padding {
@@ -81,9 +97,18 @@ h6 {
     padding-inline: 32px;
 }
 
+.bg-padding-left {
+    padding-inline-start: 16px;
+}
+
 .bg-light-blue {
     background-color: #408bdc;
     color: white;
+}
+
+.bg-extra-light-blue {
+    background-color: #a4d0ff;
+    color: black;
 }
 
 .bg-dark-blue {
@@ -101,4 +126,16 @@ h6 {
 
 .text-white {
     color: white;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.bg-dark-orange {
+    background-color: orange;
+}
+
+.bg-light-orange {
+    background-color: rgb(246, 218, 167);
 }
